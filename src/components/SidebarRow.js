@@ -3,7 +3,7 @@ import "./SidebarRow.css";
 
 function SidebarRow({ Icon, title, selected }) {
   return (
-    <div className={`sidebarRow ${selected && 'selected'}`}>
+    <div className={`sidebarRow ${selected && 'sidebarRow--state-selected'}`}>
       <Icon className="sidebarRow__icon" />
       <div className="sidebarRow__title">{title}</div>
     </div>

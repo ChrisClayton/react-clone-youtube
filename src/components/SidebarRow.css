@@ -29,14 +29,14 @@
   font-weight: bold;
 }
 
-.sidebarRow.selected {
+.sidebarRow--state-selected {
   background-color: lightgray;
 }
 
-.sidebarRow.selected > .sidebarRow__icon {
+.sidebarRow--state-selected > .sidebarRow__icon {
     color: red;
 }
 
-.sidebarRow.selected > .sidebarRow__title {
+.sidebarRow--state-selected > .sidebarRow__title {
     font-weight: bold;
 }
